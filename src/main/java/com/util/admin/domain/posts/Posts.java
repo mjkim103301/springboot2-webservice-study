@@ -1,5 +1,6 @@
 package com.util.admin.domain.posts;
 
+import com.util.admin.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,7 +11,7 @@ import javax.persistence.*;
 @NoArgsConstructor//기본 생성자 자동 추가
 @Entity//테이블과 링크될 클래스
 //entity에서는 setter 만들면 안됨
-public class Posts {
+public class Posts extends BaseTimeEntity {
     @Id//pk
     //auto increment
     @GeneratedValue(strategy= GenerationType.IDENTITY)

@@ -2,7 +2,9 @@ package com.util.admin.web.dto;
 
 import com.util.admin.domain.posts.Posts;
 import lombok.Builder;
+import lombok.Getter;
 
+@Getter
 public class PostsResponseDto {
     private Long id;
     private String title;
