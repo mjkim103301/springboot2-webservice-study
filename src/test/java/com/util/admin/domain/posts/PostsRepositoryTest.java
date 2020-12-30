@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest
+@SpringBootTest//h2 데이터베이스 자동실행
 public class PostsRepositoryTest {
 
     @Autowired

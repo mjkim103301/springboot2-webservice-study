@@ -38,6 +38,7 @@ dependencies {
     compile('org.projectlombok:lombok')//getter setter 기본생성자 toString 어노테이션 자동생성
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('com.h2database:h2')
+    compile('org.springframework.boot:spring-boot-starter-mustache')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
